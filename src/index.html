@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- page title -->
+    <title>Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/icons/favicon.png" />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/output.css" />
+    <!-- box-icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Inter fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- owl-carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- aos library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body class="bg-[#131313] text-white">
+    <!-- Loader window -->
+    <div
+      class="loader w-screen h-screen bg-white flex items-center justify-center fixed top-0 left-0 z-50"
+    >
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <main id="main" class="flex w-full overflow-x-hidden">
+      <!-- Left Sidebar -->
+      <aside
+        class="left-aside w-[25%] h-screen overflow-y-scroll py-[50px] px-10"
+      >
+        <div class="left-aside__info border-b border-[#383838] pb-6 mb-6">
+          <img
+            src="./images/avatar/Profile.png"
+            alt="avatar-img"
+            class="w-[65%] block mx-auto mb-8"
+          />
+          <h3 class="text-center text-xl font-medium mb-4">
+            Toshtemirov Mukhammadi
+          </h3>
+          <p class="text-center font-[15px] mb-4 opacity-80">
+            Full-Stack Developer
+          </p>
+          <ul class="flex w-full justify-center items-center">
+            <li class="mx-[6px]">
+              <a
+                href="#"
+                class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
+              >
+                <i class="bx bxl-facebook text-[#131313] text-xl"></i>
+              </a>
+            </li>
+            <li class="mx-[6px]">
+              <a
+                href="#"
+                class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
+              >
+                <i class="bx bxl-instagram-alt text-[#131313] text-xl"></i>
+              </a>
+            </li>
+            <li class="mx-[6px]">
+              <a
+                href="#"
+                class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
+              >
+                <i class="bx bxl-telegram text-[#131313] text-xl"></i>
+              </a>
+            </li>
+            <li class="mx-[6px]">
+              <a
+                href="#"
+                class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
+              >
+                <i class="bx bxl-linkedin text-[#131313] text-xl"></i>
+              </a>
+            </li>
+            <li class="mx-[6px]">
+              <a
+                href="#"
+                class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
+              >
+                <i class="bx bxl-github text-[#131313] text-xl"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="left-aside__address border-b border-[#383838] pb-6 mb-6">
+          <ul>
+            <li class="flex justify-between items-center mb-[10px]">
+              <span
+                class="block py-1 px-2 bg-[#FFB400] text-[#131313] rounded-md font-medium"
+                >Age:</span
+              >
+              <span>24</span>
+            </li>
+            <li class="flex justify-between items-center mb-[10px]">
+              <span
+                class="block py-1 px-2 bg-[#FFB400] text-[#131313] rounded-md font-medium"
+                >Freelance:</span
+              >
+              <span class="text-[#7CB641]">Available</span>
+            </li>
+            <li class="flex justify-between items-center mb-[10px]">
+              <span
+                class="block py-1 px-2 bg-[#FFB400] text-[#131313] rounded-md font-medium"
+                >Phone number:</span
+              >
+              <span>(99) 542 63 07</span>
+            </li>
+            <li class="flex justify-between items-center">
+              <span
+                class="block py-1 px-2 bg-[#FFB400] text-[#131313] rounded-md font-medium"
+                >Address:</span
+              >
+              <span>Tashkent, Uzbekistan</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="left-aside__skills border-b border-[#383838] pb-6 mb-6">
+          <h3 class="text-xl font-medium mb-4">Skills</h3>
+          <ul>
+            <li class="mb-[10px]">
+              <div
+                class="statistic flex justify-between items-center py-1 mb-1"
+              >
+                <span class="opacity-80">HTML/CSS</span>
+                <span class="opacity-80">90%</span>
+              </div>
+              <div
+                class="range w-full border border-[#FFB400] p-1 rounded-[10px]"
+              >
+                <div class="w-[90%] bg-[#FFB400] rounded-[10px] h-[2px]"></div>
+              </div>
+            </li>
+            <li class="mb-[10px]">
+              <div
+                class="statistic flex justify-between items-center py-1 mb-1"
+              >
+                <span class="opacity-80">JS/TS</span>
+                <span class="opacity-80">80%</span>
+              </div>
+              <div
+                class="range w-full border border-[#FFB400] p-1 rounded-[10px]"
+              >
+                <div class="w-[80%] bg-[#FFB400] rounded-[10px] h-[2px]"></div>
+              </div>
+            </li>
+            <li class="mb-[10px]">
+              <div
+                class="statistic flex justify-between items-center py-1 mb-1"
+              >
+                <span class="opacity-80">Vue/VueX</span>
+                <span class="opacity-80">70%</span>
+              </div>
+              <div
+                class="range w-full border border-[#FFB400] p-1 rounded-[10px]"
+              >
+                <div class="w-[70%] bg-[#FFB400] rounded-[10px] h-[2px]"></div>
+              </div>
+            </li>
+            <li class="mb-[10px]">
+              <div
+                class="statistic flex justify-between items-center py-1 mb-1"
+              >
+                <span class="opacity-80">React/Redux</span>
+                <span class="opacity-80">50%</span>
+              </div>
+              <div
+                class="range w-full border border-[#FFB400] p-1 rounded-[10px]"
+              >
+                <div class="w-[50%] bg-[#FFB400] rounded-[10px] h-[2px]"></div>
+              </div>
+            </li>
+            <li class="mb-[10px]">
+              <div
+                class="statistic flex justify-between items-center py-1 mb-1"
+              >
+                <span class="opacity-80">Node/Nest</span>
+                <span class="opacity-80">70%</span>
+              </div>
+              <div
+                class="range w-full border border-[#FFB400] p-1 rounded-[10px]"
+              >
+                <div class="w-[70%] bg-[#FFB400] rounded-[10px] h-[2px]"></div>
+              </div>
+            </li>
+            <li class="mb-[10px]">
+              <div
+                class="statistic flex justify-between items-center py-1 mb-1"
+              >
+                <span class="opacity-80">Database</span>
+                <span class="opacity-80">60%</span>
+              </div>
+              <div
+                class="range w-full border border-[#FFB400] p-1 rounded-[10px]"
+              >
+                <div class="w-[60%] bg-[#FFB400] rounded-[10px] h-[2px]"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="left-aside__extra border-b border-[#383838] pb-6 mb-6">
+          <h3 class="text-xl font-medium mb-4">Extra Skills</h3>
+          <ul>
+            <li class="flex items-center mb-1">
+              <i class="bx bx-checkbox-checked text-[#FFB400] text-2xl"></i>
+              <span class="opacity-70 ml-3 text-lg"
+                >Bootstap, Tailwind, Sass</span
+              >
+            </li>
+            <li class="flex items-center mb-1">
+              <i class="bx bx-checkbox-checked text-[#FFB400] text-2xl"></i>
+              <span class="opacity-70 ml-3 text-lg"
+                >Vuetify, Flowbite, Pinia</span
+              >
+            </li>
+            <li class="flex items-center mb-1">
+              <i class="bx bx-checkbox-checked text-[#FFB400] text-2xl"></i>
+              <span class="opacity-70 ml-3 text-lg"
+                >Express, Koa, ORM, ODM</span
+              >
+            </li>
+            <li class="flex items-center mb-1">
+              <i class="bx bx-checkbox-checked text-[#FFB400] text-2xl"></i>
+              <span class="opacity-70 ml-3 text-lg">Mongo, SQL, Redis</span>
+            </li>
+            <li class="flex items-center mb-1">
+              <i class="bx bx-checkbox-checked text-[#FFB400] text-2xl"></i>
+              <span class="opacity-70 ml-3 text-lg">Git, Github, Docker</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="left-aside__lang border-b border-[#383838] pb-6 mb-6">
+          <h3 class="text-xl font-medium mb-4">Languages</h3>
+          <ul>
+            <li class="mb-[10px]">
+              <div
+                class="statistic flex justify-between items-center py-1 mb-1"
+              >
+                <span class="opacity-80">Uzbek</span>
+                <span class="opacity-80">100%</span>
+              </div>
+              <div
+                class="range w-full border border-[#FFB400] p-1 rounded-[10px]"
+              >
+                <div class="w-full bg-[#FFB400] rounded-[10px] h-[2px]"></div>
+              </div>
+            </li>
+            <li class="mb-[10px]">
+              <div
+                class="statistic flex justify-between items-center py-1 mb-1"
+              >
+                <span class="opacity-80">English</span>
+                <span class="opacity-80">50%</span>
+              </div>
+              <div
+                class="range w-full border border-[#FFB400] p-1 rounded-[10px]"
+              >
+                <div class="w-1/2 bg-[#FFB400] rounded-[10px] h-[2px]"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="left-aside__resume">
+          <a
+            href="#"
+            class="bg-[#FFB400] py-3 flex justify-center items-center rounded-md hover:bg-white duration-200"
+          >
+            <span class="uppercase text-[#131313] mr-2 font-semibold"
+              >Download cv</span
+            >
+            <i class="bx bx-download text-[#131313] text-xl"></i>
+          </a>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main
+        class="main-content w-[70%] h-screen overflow-y-scroll overflow-x-hidden"
+      ></main>
+
+      <!-- Right Sidebar -->
+      <aside class="left-aside w-[5%] h-screen overflow-hidden"></aside>
+    </main>
+
+    <!-- script files -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/portfolio-data.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
