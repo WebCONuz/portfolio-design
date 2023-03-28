@@ -113,5 +113,22 @@ body {
 }
 
 /* --------------------------------------------- */
-/* Header -------------------------------------- */
+/* Intro --------------------------------------- */
 /* --------------------------------------------- */
+
+.main-content__intro {
+  background-image: url("../images/bg/bg-intro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.main-content__intro::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
