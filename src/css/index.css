@@ -132,3 +132,28 @@ body {
   top: 0;
   left: 0;
 }
+
+/* --------------------------------------------- */
+/* Carousel ------------------------------------ */
+/* --------------------------------------------- */
+
+.owl-dots {
+  margin-top: 1rem;
+  text-align: center;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.owl-dots .owl-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: #fff !important;
+  opacity: 0.5;
+}
+.owl-dots .owl-dot.active {
+  background-color: #ffb400 !important;
+  opacity: 1;
+}

@@ -16,4 +16,26 @@ window.addEventListener("DOMContentLoaded", function () {
       replaceClass(item, delClassArr, addClassArr);
     });
   }
+
+  // -----------------------------------------------------------
+  // Team slider -----------------------------------------------
+  // -----------------------------------------------------------
+  const owl1 = $(".blog-carousel");
+  owl1.owlCarousel({
+    loop: true,
+    nav: false,
+    dots: true,
+    margin: 20,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      640: {
+        items: 2,
+      },
+      1024: {
+        items: 3,
+      },
+    },
+  });
 });
