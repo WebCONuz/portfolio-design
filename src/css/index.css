@@ -23,7 +23,7 @@ body {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #00e13a;
+  background: #131313;
   margin: -4px 0 0 -4px;
 }
 .lds-roller div:nth-child(1) {
@@ -141,7 +141,7 @@ body {
   margin-top: 1rem;
   text-align: center;
   position: absolute;
-  bottom: -5%;
+  bottom: -3%;
   left: 50%;
   transform: translate(-50%);
 }

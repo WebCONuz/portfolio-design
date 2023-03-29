@@ -50,6 +50,13 @@ window.addEventListener("DOMContentLoaded", function () {
       );
     }
   });
+  const asideItems = document.querySelectorAll(".right-aside__item");
+  asideItems.forEach((item) => {
+    item.addEventListener("click", function () {
+      replaceClass(this, ["bg-[#353535]"], ["bg-[#FFB400]"]);
+      arrReplaceClass(asideItems, ["bg-[#FFB400]"], ["bg-[#353535]"]);
+    });
+  });
 
   // -----------------------------------------------------------
   // Team slider -----------------------------------------------
