@@ -55,16 +55,16 @@
     </div>
 
     <!-- CONTENT -->
-    <main id="main" class="flex w-full overflow-x-hidden">
+    <main id="main" class="flex w-full overflow-x-hidden relative">
       <!-- Left Sidebar -->
       <aside
-        class="left-aside w-[25%] h-screen overflow-y-scroll py-[50px] px-10"
+        class="about-data absolute top-0 -left-full z-30 bg-[#131313] lg:static left-aside w-full sm:w-[350px] lg:w-[25%] h-screen overflow-y-scroll py-[50px] px-4 lg:px-6 2xl:px-10 duration-300"
       >
         <div class="left-aside__info border-b border-[#383838] pb-6 mb-6">
           <img
-            src="./images/avatar/Profile.png"
+            src="./images/avatar/Profile1.jpg"
             alt="avatar-img"
-            class="w-[65%] block mx-auto mb-8"
+            class="w-[65%] block mx-auto mb-8 rounded-full"
           />
           <h3 class="text-center text-xl font-medium mb-4">
             Toshtemirov Mukhammadi
@@ -73,7 +73,7 @@
             Full-Stack Developer
           </p>
           <ul class="flex w-full justify-center items-center">
-            <li class="mx-[6px]">
+            <li class="mx-1 2xl:mx-[6px]">
               <a
                 href="#"
                 class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
@@ -81,7 +81,7 @@
                 <i class="bx bxl-facebook text-[#131313] text-xl"></i>
               </a>
             </li>
-            <li class="mx-[6px]">
+            <li class="mx-1 2xl:mx-[6px]">
               <a
                 href="#"
                 class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
@@ -89,7 +89,7 @@
                 <i class="bx bxl-instagram-alt text-[#131313] text-xl"></i>
               </a>
             </li>
-            <li class="mx-[6px]">
+            <li class="mx-1 2xl:mx-[6px]">
               <a
                 href="#"
                 class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
@@ -97,7 +97,7 @@
                 <i class="bx bxl-telegram text-[#131313] text-xl"></i>
               </a>
             </li>
-            <li class="mx-[6px]">
+            <li class="mx-1 2xl:mx-[6px]">
               <a
                 href="#"
                 class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
@@ -105,7 +105,7 @@
                 <i class="bx bxl-linkedin text-[#131313] text-xl"></i>
               </a>
             </li>
-            <li class="mx-[6px]">
+            <li class="mx-1 2xl:mx-[6px]">
               <a
                 href="#"
                 class="flex justify-center items-center w-8 h-8 bg-[#FFB400] rounded-full hover:bg-white duration-200"
@@ -116,38 +116,38 @@
           </ul>
         </div>
 
-        <!-- <div class="left-aside__address border-b border-[#383838] pb-6 mb-6">
+        <div class="left-aside__address border-b border-[#383838] pb-6 mb-6">
           <ul>
             <li class="flex justify-between items-center mb-[10px]">
               <span
-                class="block py-1 px-2 bg-[#FFB400] text-[#131313] rounded-md font-medium"
-                >Age:</span
+                class="block mr-2 py-[2px] px-1 2xl:py-1 2xl:px-2 text-sm 2xl:text-base bg-[#FFB400] text-[#131313] rounded-md font-medium"
+                >Age</span
               >
               <span>24</span>
             </li>
             <li class="flex justify-between items-center mb-[10px]">
               <span
-                class="block py-1 px-2 bg-[#FFB400] text-[#131313] rounded-md font-medium"
-                >Freelance:</span
+                class="block mr-2 py-[2px] px-1 2xl:py-1 2xl:px-2 text-sm 2xl:text-base bg-[#FFB400] text-[#131313] rounded-md font-medium"
+                >Freelance</span
               >
               <span class="text-[#7CB641]">Available</span>
             </li>
             <li class="flex justify-between items-center mb-[10px]">
               <span
-                class="block py-1 px-2 bg-[#FFB400] text-[#131313] rounded-md font-medium"
-                >Phone number:</span
+                class="block mr-2 py-[2px] px-1 2xl:py-1 2xl:px-2 text-sm 2xl:text-base bg-[#FFB400] text-[#131313] rounded-md font-medium"
+                >Phone</span
               >
               <span>(99) 542 63 07</span>
             </li>
             <li class="flex justify-between items-center">
               <span
-                class="block py-1 px-2 bg-[#FFB400] text-[#131313] rounded-md font-medium"
-                >Address:</span
+                class="block mr-2 py-[2px] px-1 2xl:py-1 2xl:px-2 text-sm 2xl:text-base bg-[#FFB400] text-[#131313] rounded-md font-medium"
+                >Address</span
               >
-              <span>Tashkent, Uzbekistan</span>
+              <span>Tashkent, Uzb</span>
             </li>
           </ul>
-        </div> -->
+        </div>
 
         <div class="left-aside__skills border-b border-[#383838] pb-6 mb-6">
           <h3 class="text-xl font-medium mb-4">Skills</h3>
@@ -300,14 +300,14 @@
               <div class="statistic flex items-center">
                 <i class="bx bx-radio-circle-marked mr-2 text-[#FFB400]"></i>
                 <span class="opacity-80 mr-auto">Uzbek:</span>
-                <span class="opacity-80">Native Language</span>
+                <span class="opacity-80 ml-2">Native Language</span>
               </div>
             </li>
             <li class="mb-[10px]">
               <div class="statistic flex items-center">
                 <i class="bx bx-radio-circle-marked mr-2 text-[#FFB400]"></i>
                 <span class="opacity-80 mr-auto">English:</span>
-                <span class="opacity-80">Elementary - A2</span>
+                <span class="opacity-80 ml-2">Elementary - A2</span>
               </div>
             </li>
           </ul>
@@ -316,7 +316,7 @@
         <div class="left-aside__resume">
           <a
             href="#"
-            class="bg-[#FFB400] py-3 flex justify-center items-center rounded-md hover:bg-white duration-200"
+            class="bg-[#FFB400] py-2 2xl:py-3 flex justify-center items-center rounded-md hover:bg-white duration-200"
           >
             <span class="uppercase text-[#131313] mr-2 font-semibold"
               >Download cv</span
@@ -328,20 +328,24 @@
 
       <!-- Main Content -->
       <main
-        class="main-content w-[70%] h-screen overflow-y-scroll overflow-x-hidden pt-6"
+        class="main-content w-full sm:w-[90%] md:w-[93%] lg:w-[70%] h-screen overflow-y-scroll overflow-x-hidden pt-6"
       >
         <section
           id="intro"
-          class="main-content__intro w-[95%] mx-auto min-h-[467px] flex flex-col justify-center items-center mb-16"
+          class="main-content__intro w-[95%] mx-auto min-h-[70vh] md:min-h-[467px] flex flex-col justify-center items-center mb-16"
         >
           <div class="relative z-10">
-            <h1 class="text-center text-4xl font-bold mb-2">
+            <h1
+              class="text-center max-w-[450px] md:max-w-full mx-auto text-3xl lg:text-4xl font-bold mb-1 sm:mb-2"
+            >
               I'm Toshtemirov Mukhammadi
             </h1>
-            <h1 class="text-center text-4xl font-bold mb-6">
+            <h1
+              class="text-center max-w-[450px] md:max-w-full mx-auto text-3xl lg:text-4xl font-bold mb-6"
+            >
               <span class="text-[#FFB400]">Full Stack</span> Developer
             </h1>
-            <p class="w-[65%] mx-auto text-center mb-6">
+            <p class="w-[80%] md:w-[65%] mx-auto text-center mb-6">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
               libero dolor, odio numquam repudiandae itaque, vero at nisi
               dignissimos voluptas aperiam nam suscipit reiciendis!
@@ -375,7 +379,7 @@
           <div class="flex justify-between flex-wrap">
             <!-- 1 -->
             <div
-              class="card bg-[#242424] p-8 w-[32%] flex flex-col items-center mb-6"
+              class="card bg-[#242424] p-8 w-full sm:w-[48.5%] md:w-[32%] flex flex-col items-center mb-3 sm:mb-6"
             >
               <img
                 src="./images/services/coding.png"
@@ -389,7 +393,7 @@
             </div>
             <!-- 2 -->
             <div
-              class="card bg-[#242424] p-8 w-[32%] flex flex-col items-center mb-6"
+              class="card bg-[#242424] p-8 w-full sm:w-[48.5%] md:w-[32%] flex flex-col items-center mb-3 sm:mb-6"
             >
               <img
                 src="./images/services/coding.png"
@@ -403,7 +407,7 @@
             </div>
             <!-- 3 -->
             <div
-              class="card bg-[#242424] p-8 w-[32%] flex flex-col items-center mb-6"
+              class="card bg-[#242424] p-8 w-full sm:w-[48.5%] md:w-[32%] flex flex-col items-center mb-3 sm:mb-6"
             >
               <img
                 src="./images/services/coding.png"
@@ -417,7 +421,7 @@
             </div>
             <!-- 4 -->
             <div
-              class="card bg-[#242424] p-8 w-[32%] flex flex-col items-center mb-6"
+              class="card bg-[#242424] p-8 w-full sm:w-[48.5%] md:w-[32%] flex flex-col items-center mb-3 sm:mb-6"
             >
               <img
                 src="./images/services/coding.png"
@@ -431,7 +435,7 @@
             </div>
             <!-- 5 -->
             <div
-              class="card bg-[#242424] p-8 w-[32%] flex flex-col items-center mb-6"
+              class="card bg-[#242424] p-8 w-full sm:w-[48.5%] md:w-[32%] flex flex-col items-center mb-3 sm:mb-6"
             >
               <img
                 src="./images/services/coding.png"
@@ -445,7 +449,7 @@
             </div>
             <!-- 6 -->
             <div
-              class="card bg-[#242424] p-8 w-[32%] flex flex-col items-center mb-6"
+              class="card bg-[#242424] p-8 w-full sm:w-[48.5%] md:w-[32%] flex flex-col items-center mb-3 sm:mb-6"
             >
               <img
                 src="./images/services/coding.png"
@@ -653,7 +657,9 @@
           </div>
           <div class="flex justify-between flex-wrap">
             <!-- 1 -->
-            <div class="card w-[32%] mb-8 relative">
+            <div
+              class="card w-full sm:w-[48.5%] md:w-[32%] mb-3 sm:mb-6 relative"
+            >
               <img
                 src="./images/portfolio/mockup.jpg"
                 alt="card-img"
@@ -675,7 +681,9 @@
               </a>
             </div>
             <!-- 2 -->
-            <div class="card w-[32%] mb-8 relative">
+            <div
+              class="card w-full sm:w-[48.5%] md:w-[32%] mb-3 sm:mb-6 relative"
+            >
               <img
                 src="./images/portfolio/mockup.jpg"
                 alt="card-img"
@@ -697,7 +705,9 @@
               </a>
             </div>
             <!-- 3 -->
-            <div class="card w-[32%] mb-8 relative">
+            <div
+              class="card w-full sm:w-[48.5%] md:w-[32%] mb-3 sm:mb-6 relative"
+            >
               <img
                 src="./images/portfolio/mockup.jpg"
                 alt="card-img"
@@ -719,7 +729,9 @@
               </a>
             </div>
             <!-- 4 -->
-            <div class="card w-[32%] mb-8 relative">
+            <div
+              class="card w-full sm:w-[48.5%] md:w-[32%] mb-3 sm:mb-6 relative"
+            >
               <img
                 src="./images/portfolio/mockup.jpg"
                 alt="card-img"
@@ -741,7 +753,9 @@
               </a>
             </div>
             <!-- 5 -->
-            <div class="card w-[32%] mb-8 relative">
+            <div
+              class="card w-full sm:w-[48.5%] md:w-[32%] mb-3 sm:mb-6 relative"
+            >
               <img
                 src="./images/portfolio/mockup.jpg"
                 alt="card-img"
@@ -763,7 +777,9 @@
               </a>
             </div>
             <!-- 6 -->
-            <div class="card w-[32%] mb-8 relative">
+            <div
+              class="card w-full sm:w-[48.5%] md:w-[32%] mb-3 sm:mb-6 relative"
+            >
               <img
                 src="./images/portfolio/mockup.jpg"
                 alt="card-img"
@@ -984,47 +1000,59 @@
 
       <!-- Right Sidebar -->
       <aside
-        class="left-aside w-[5%] h-screen overflow-hidden flex flex-col justify-center items-center"
+        class="right-aside border border-[#ffb3006b] sm:border-none w-auto px-2 sm:px-0 pt-4 sm:pt-0 bg-[#000000ad] lg:bg-transparent rounded-[1.5rem] sm:bg-[#131313] absolute top-1 right-1 z-50 sm:static h-hidden sm:w-[10%] md:w-[7%] lg:w-[5%] sm:h-screen overflow-hidden flex flex-col justify-start sm:justify-center items-center duration-300"
       >
         <a
+          href="#"
+          class="show-data flex items-center justify-center mb-3 sm:mb-16 lg:hidden w-[34px] h-[34px] rounded-md bg-[#FFB400] duration-200"
+        >
+          <i class="bx bxs-user-detail text-2xl text-[#131313]"></i>
+        </a>
+        <a
+          href="#"
+          class="show-menu sm:hidden flex items-center justify-center mb-3 w-[34px] h-[34px] rounded-md bg-[#FFB400] duration-200"
+        >
+          <i class="bx bx-menu text-2xl text-[#131313]"></i>
+        </a>
+        <a
           href="#intro"
-          class="flex items-center justify-center my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
+          class="flex items-center justify-center my-2 sm:my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
         >
           <i class="bx bxs-home-alt-2 text-xl text-[#131313]"></i>
         </a>
         <a
           href="#services"
-          class="flex items-center justify-center my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
+          class="flex items-center justify-center my-2 sm:my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
         >
           <i class="bx bx-code-block text-xl text-[#131313]"></i>
         </a>
         <a
           href="#education"
-          class="flex items-center justify-center my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
+          class="flex items-center justify-center my-2 sm:my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
         >
           <i class="bx bx-book-content text-xl text-[#131313]"></i>
         </a>
         <a
           href="#work"
-          class="flex items-center justify-center my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
+          class="flex items-center justify-center my-2 sm:my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
         >
           <i class="bx bxs-briefcase-alt-2 text-xl text-[#131313]"></i>
         </a>
         <a
           href="#portfolio"
-          class="flex items-center justify-center my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
+          class="flex items-center justify-center my-2 sm:my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
         >
           <i class="bx bx-network-chart text-xl text-[#131313]"></i>
         </a>
         <a
           href="#blog"
-          class="flex items-center justify-center my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
+          class="flex items-center justify-center my-2 sm:my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
         >
           <i class="bx bxl-blogger text-xl text-[#131313]"></i>
         </a>
         <a
           href="#contact"
-          class="flex items-center justify-center my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
+          class="flex items-center justify-center my-2 sm:my-3 w-[34px] h-[34px] rounded-full bg-[#242424] hover:bg-[#FFB400] duration-200"
         >
           <i class="bx bxs-contact text-xl text-[#131313]"></i>
         </a>

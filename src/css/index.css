@@ -157,3 +157,9 @@ body {
   background-color: #ffb400 !important;
   opacity: 1;
 }
+
+@media screen and (max-width: 640px) {
+  .right-aside.h-hidden {
+    height: 110px;
+  }
+}

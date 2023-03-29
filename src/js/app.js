@@ -17,6 +17,40 @@ window.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  const showAboutBtn = document.querySelector(".show-data");
+  const showAboutIcon = document.querySelector(".show-data > i");
+  const aboutData = document.querySelector(".about-data");
+  showAboutBtn.addEventListener("click", function () {
+    if (aboutData.classList.contains("-left-full")) {
+      replaceClass(aboutData, ["-left-full"], ["left-0"]);
+      replaceClass(showAboutIcon, ["bxs-user-detail"], ["bxs-user-x"]);
+    } else {
+      replaceClass(aboutData, ["left-0"], ["-left-full"]);
+      replaceClass(showAboutIcon, ["bxs-user-x"], ["bxs-user-detail"]);
+    }
+  });
+
+  const showMenuBtn = document.querySelector(".show-menu");
+  const showMenuIcon = document.querySelector(".show-menu > i");
+  const menuData = document.querySelector(".right-aside");
+  showMenuBtn.addEventListener("click", function () {
+    if (menuData.classList.contains("h-auto")) {
+      replaceClass(menuData, ["h-auto"], ["h-hidden"]);
+      replaceClass(
+        showMenuIcon,
+        ["bx-x", "scale-110"],
+        ["bx-menu", "scale-110"]
+      );
+    } else {
+      replaceClass(menuData, ["h-hidden"], ["h-auto"]);
+      replaceClass(
+        showMenuIcon,
+        ["bx-menu", "scale-110"],
+        ["bx-x", "scale-110"]
+      );
+    }
+  });
+
   // -----------------------------------------------------------
   // Team slider -----------------------------------------------
   // -----------------------------------------------------------
